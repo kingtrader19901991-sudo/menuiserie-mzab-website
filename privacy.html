@@ -13,8 +13,9 @@
             font-family: 'Inter', sans-serif;
             background-color: #f7f7f0;
         }
-        .wood-primary { background-color: #8D6E63; }
-        .wood-secondary { color: #6D4C41; }
+        .wood-primary { background-color: #8D6E63; } /* Wood Brown */
+        .wood-secondary { color: #6D4C41; } /* Darker Brown for text */
+        .wood-accent { background-color: #F4D35E; } /* Golden Accent */
     </style>
 </head>
 <body class="text-gray-800">
@@ -31,39 +32,115 @@
 
     <!-- Privacy Policy Content -->
     <section class="py-16 wood-primary/10 min-h-screen">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-4xl font-bold wood-secondary text-center mb-10">Politique de Confidentialité (App Mobile)</h1>
-            <div class="bg-white p-8 rounded-xl shadow-lg border-2 border-wood-primary/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <h1 class="text-5xl font-extrabold wood-secondary text-center mb-2">Politique de Confidentialité</h1>
+            <p class="text-center text-sm text-gray-500 mb-12">Dernière Mise à Jour: 20 Novembre 2025</p>
+
+            <div class="flex flex-col lg:flex-row gap-10">
                 
-                <p class="font-semibold mb-4 wood-secondary text-lg">Application : Menuiserie Atlas Catalog App</p>
-                <p class="text-base leading-relaxed text-gray-700">
-                    La société **[Nom de Votre Organisation]**, exploitant l'application mobile "Menuiserie Atlas Catalog App", s'engage à garantir la confidentialité et la sécurité des utilisateurs.
-                </p>
+                <!-- Table of Contents (Left Sidebar - NEW STYLE) -->
+                <aside class="lg:w-1/4 bg-white p-6 rounded-xl shadow-lg border border-stone-200 sticky top-24 h-fit">
+                    <h3 class="font-bold wood-secondary mb-4 border-b pb-2">Table des Matières</h3>
+                    <nav class="space-y-2 text-sm">
+                        <a href="#introduction" class="block text-gray-700 hover:text-amber-700 transition-colors">1. Introduction et Objectif</a>
+                        <a href="#collecte" class="block text-gray-700 hover:text-amber-700 transition-colors">2. Informations Collectées</a>
+                        <a href="#utilisation" class="block text-gray-700 hover:text-amber-700 transition-colors">3. Utilisation des Informations</a>
+                        <a href="#securite" class="block text-gray-700 hover:text-amber-700 transition-colors">4. Sécurité et Rétention des Données</a>
+                        <a href="#mineurs" class="block text-gray-700 hover:text-amber-700 transition-colors">5. Confidentialité des Mineurs</a>
+                        <a href="#contact" class="block text-gray-700 hover:text-amber-700 transition-colors">6. Contactez-Nous</a>
+                    </nav>
+                </aside>
 
-                <h3 class="text-2xl font-bold wood-secondary mt-8 mb-4">1. Collecte de Données Personnelles</h3>
-                <p class="text-base leading-relaxed text-gray-700">
-                    Notre application mobile est conçue pour fonctionner de manière entièrement autonome et **hors ligne**.
-                    Par conséquent, l'application **ne collecte aucune donnée personnelle** (nom, adresse email, numéro de téléphone, localisation, identifiants d'appareil, etc.) de ses utilisateurs.
-                </p>
+                <!-- Policy Sections (Right Content) -->
+                <div class="lg:w-3/4 space-y-12">
 
-                <h3 class="text-2xl font-bold wood-secondary mt-8 mb-4">2. Permissions et Accès</h3>
-                <p class="text-base leading-relaxed text-gray-700">
-                    L'application ne requiert **aucune permission spéciale** (telle que l'accès à la caméra, aux contacts, ou à la connexion Internet) pour fonctionner. Toutes les données du catalogue sont stockées localement sur l'appareil.
-                </p>
+                    <!-- Section 1: Introduction -->
+                    <section id="introduction" class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-wood-primary">
+                        <h2 class="text-3xl font-bold wood-secondary mb-4">1. Introduction et Objectif</h2>
+                        <p class="text-base leading-relaxed text-gray-700">
+                            La présente Politique de Confidentialité décrit les pratiques de **[Nom de Votre Organisation]** (désignée par "nous" ou "notre") concernant l'application mobile "Menuiserie Atlas Catalog App" (l'Application). Notre objectif est de vous offrir un outil de catalogue professionnel et de garantir une transparence totale.
+                        </p>
+                        <p class="text-base leading-relaxed text-gray-700 mt-4 font-semibold">
+                            Application concernée : Menuiserie Atlas Catalog App.
+                        </p>
+                    </section>
+                    
+                    <!-- Section 2: Data Collection (CRITICAL) -->
+                    <section id="collecte" class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-wood-primary">
+                        <h2 class="text-3xl font-bold wood-secondary mb-4">2. Informations Collectées</h2>
+                        
+                        <p class="text-base leading-relaxed text-gray-700 font-bold mb-4">
+                            L'Application ne collecte aucune information personnelle auprès de ses utilisateurs.
+                        </p>
 
-                <h3 class="text-2xl font-bold wood-secondary mt-8 mb-4">3. Contact</h3>
-                <p class="text-base leading-relaxed text-gray-700">
-                    Pour toute question relative à cette politique, veuillez nous contacter aux coordonnées suivantes :
-                </p>
-                <ul class="list-disc ml-6 mt-3 text-base text-gray-700 space-y-2">
-                    <li>Email : <a href="mailto:contact@atlas-menuiserie.ma" class="text-blue-600 hover:underline">contact@atlas-menuiserie.ma</a></li>
-                    <li>Téléphone : +212 5 00 00 00 00</li>
-                </ul>
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <span class="wood-secondary font-extrabold text-xl leading-none">•</span>
+                                <p class="text-base text-gray-700">
+                                    <span class="font-bold">Données fournies par l'Utilisateur :</span> Nous ne demandons ni n'enregistrons aucune donnée personnelle telle que nom, adresse e-mail, identifiants de connexion, coordonnées bancaires, ou historique de navigation.
+                                </p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="wood-secondary font-extrabold text-xl leading-none">•</span>
+                                <p class="text-base text-gray-700">
+                                    <span class="font-bold">Données Collectées Automatiquement :</span> En raison de son fonctionnement **exclusivement hors ligne**, l'Application ne collecte pas d'adresses IP, de données de localisation, d'identifiants publicitaires, ou de données de crash.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
 
-                <a href="index.html" class="mt-10 inline-block wood-primary text-white font-semibold py-3 px-6 rounded-lg hover:bg-wood-secondary transition-colors">
-                    Retour à la Menuiserie Atlas
-                </a>
+                    <!-- Section 3: Use of Information -->
+                    <section id="utilisation" class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-wood-primary">
+                        <h2 class="text-3xl font-bold wood-secondary mb-4">3. Utilisation des Informations</h2>
+                        <p class="text-base leading-relaxed text-gray-700">
+                            Puisque nous ne collectons aucune information personnelle, nous n'utilisons, ni ne traitons, ni ne partageons, ni ne vendons de données d'utilisateur.
+                        </p>
+                        <p class="text-base leading-relaxed text-gray-700 mt-4">
+                            L'Application utilise uniquement le contenu statique (photos de produits, descriptions, coordonnées de l'atelier) embarqué dans l'application pour :
+                        </p>
+                        <ul class="list-disc ml-6 mt-3 text-base text-gray-700 space-y-1">
+                            <li>Afficher notre catalogue de menuiserie.</li>
+                            <li>Fournir des informations de contact professionnelles.</li>
+                        </ul>
+                    </section>
+                    
+                    <!-- Section 4: Security and Retention -->
+                    <section id="securite" class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-wood-primary">
+                        <h2 class="text-3xl font-bold wood-secondary mb-4">4. Sécurité et Rétention des Données</h2>
+                        <p class="text-base leading-relaxed text-gray-700">
+                            <span class="font-bold">Sécurité :</span> L'absence de collecte et de transmission de données élimine tout risque de violation de données de notre part.
+                        </p>
+                        <p class="text-base leading-relaxed text-gray-700 mt-3">
+                            <span class="font-bold">Rétention :</span> Aucune donnée utilisateur n'est stockée sur nos serveurs.
+                        </p>
+                        <p class="text-base leading-relaxed text-gray-700 mt-3">
+                            <span class="font-bold">Permissions :</span> L'Application ne demande ni n'utilise aucune permission sensible (Internet, Localisation, Stockage, Contacts).
+                        </p>
+                    </section>
 
+                    <!-- Section 5: Children's Privacy -->
+                    <section id="mineurs" class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-wood-primary">
+                        <h2 class="text-3xl font-bold wood-secondary mb-4">5. Confidentialité des Mineurs</h2>
+                        <p class="text-base leading-relaxed text-gray-700">
+                            Notre Application ne s'adresse pas aux enfants de moins de 13 ans. Étant donné que nous ne collectons aucune donnée personnelle, nous ne collectons sciemment aucune information auprès des mineurs.
+                        </p>
+                    </section>
+
+                    <!-- Section 6: Contact Us -->
+                    <section id="contact" class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-wood-primary">
+                        <h2 class="text-3xl font-bold wood-secondary mb-4">6. Contactez-Nous</h2>
+                        <p class="text-base leading-relaxed text-gray-700">
+                            Pour toute question ou préoccupation concernant cette Politique de Confidentialité ou l'Application, veuillez nous contacter :
+                        </p>
+                        <ul class="list-disc ml-6 mt-3 text-base text-gray-700 space-y-2">
+                            <li>Email : <a href="mailto:contact@atlas-menuiserie.ma" class="text-blue-600 hover:underline">contact@atlas-menuiserie.ma</a></li>
+                            <li>Téléphone : +212 5 00 00 00 00</li>
+                            <li>Adresse Postale : BLOC PAM 1 CENTRE OD MRAH BEN AHMED (M) - Maroc</li>
+                        </ul>
+                    </section>
+
+                </div>
             </div>
         </div>
     </section>
@@ -71,7 +148,7 @@
     <!-- Footer -->
     <footer class="wood-primary py-8 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
-            <p>&copy; 2024 Menuiserie Atlas. Tous droits réservés.</p>
+            <p>&copy; 2025 Menuiserie Atlas. Tous droits réservés.</p>
         </div>
     </footer>
 
