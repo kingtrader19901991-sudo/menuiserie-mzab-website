@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menuiserie MZAB - Artisanat du Bois au Maroc</title>
+    <title>Menuiserie Atlas - Artisanat du Bois au Maroc</title>
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Use Inter Font -->
@@ -16,6 +16,8 @@
         .wood-primary { background-color: #8D6E63; } /* Wood Brown */
         .wood-secondary { color: #6D4C41; } /* Darker Brown for text */
         .wood-accent { background-color: #F4D35E; } /* Golden Accent */
+        /* Custom style for image card border visibility */
+        .card-border-fix { border-bottom: 4px solid #8D6E63; }
     </style>
 </head>
 <body class="text-gray-800">
@@ -24,7 +26,7 @@
     <header class="wood-primary text-white shadow-xl sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <a href="#hero" class="text-2xl font-extrabold tracking-wider">
-                MENUISERIE MZAB
+                ATLAS MENUISERIE
             </a>
             <nav class="hidden md:flex space-x-6 text-sm font-semibold">
                 <a href="#services" class="hover:text-wood-accent transition-colors">Nos Services</a>
@@ -53,44 +55,56 @@
                     Spécialistes de la Menuiserie Bois Sur Mesure au Maroc. Qualité, Tradition et Innovation.
                 </p>
                 <a href="#contact" class="inline-block wood-accent wood-secondary font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl hover:wood-secondary/90 transition-all duration-300 transform hover:scale-105">
-                    N'hésitez pas a nous contacter
+                    Demander un Devis Gratuit
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- 2. Services Section -->
+    <!-- 2. Services Section (UPDATED WITH IMAGES) -->
     <section id="services" class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold wood-secondary text-center mb-12">Nos Domaines d'Expertise</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-                <!-- Service Card 1: Doors -->
-                <div class="bg-stone-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-t-4 border-wood-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#8D6E63" class="w-10 h-10 mb-4"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v13.5A2.25 2.25 0 0 0 6 21h10.5a2.25 2.25 0 0 0 2.25-2.25V15m-4.5-8.25V4.5A2.25 2.25 0 0 0 13.5 2.25h-3A2.25 2.25 0 0 0 8.25 4.5v3.75m4.5 4.5v1.5m-4.5-1.5v1.5m4.5 0h-4.5" /></svg>
-                    <h3 class="text-xl font-bold mb-2 wood-secondary">Portes & Fenêtres</h3>
-                    <p class="text-gray-600 text-sm">Design et fabrication de portes d'entrée majestueuses et de fenêtres isolantes sur mesure.</p>
+                <!-- Service Card 1: Doors (category_portes.jpg) -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://github.com/kingtrader19901991-sudo/menuiserie-mzab-website/blob/main/category_portes.jpg?raw=true" alt="Image de Portes et Fenêtres">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2 wood-secondary">Portes & Fenêtres</h3>
+                        <p class="text-gray-600 text-sm">Design et fabrication de portes d'entrée majestueuses et de fenêtres isolantes sur mesure.</p>
+                    </div>
+                    <div class="card-border-fix"></div>
                 </div>
 
-                <!-- Service Card 2: Kitchens -->
-                <div class="bg-stone-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-t-4 border-wood-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#8D6E63" class="w-10 h-10 mb-4"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 18H7.5m-3-6h16.5" /></svg>
-                    <h3 class="text-xl font-bold mb-2 wood-secondary">Cuisines Sur Mesure</h3>
-                    <p class="text-gray-600 text-sm">Aménagement intérieur, fonctionnalité et design moderne pour le cœur de votre foyer.</p>
+                <!-- Service Card 2: Kitchens (category_cuisines.webp) -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://github.com/kingtrader19901991-sudo/menuiserie-mzab-website/blob/main/category_cuisines.webp?raw=true" alt="Image de Cuisines Sur Mesure">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2 wood-secondary">Cuisines Sur Mesure</h3>
+                        <p class="text-gray-600 text-sm">Aménagement intérieur, fonctionnalité et design moderne pour le cœur de votre foyer.</p>
+                    </div>
+                    <div class="card-border-fix"></div>
                 </div>
 
-                <!-- Service Card 3: Salons -->
-                <div class="bg-stone-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-t-4 border-wood-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#8D6E63" class="w-10 h-10 mb-4"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12h2.25m-2.25 0c0 1.155 1.082 2.152 2.502 2.316m-2.502-2.316a2.247 2.247 0 0 1 2.502-2.316m2.502 2.316l-3-3m3 3c0-1.155 1.082-2.152 2.502-2.316m-2.502 2.316l3-3m3 3c0-1.155 1.082-2.152 2.502-2.316m-2.502 2.316l3-3" /></svg>
-                    <h3 class="text-xl font-bold mb-2 wood-secondary">Salons Marocains</h3>
-                    <p class="text-gray-600 text-sm">Travail du bois sculpté, Sedari traditionnels et tables basses en bois noble.</p>
+                <!-- Service Card 3: Salons (category_salons.jpg) -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://github.com/kingtrader19901991-sudo/menuiserie-mzab-website/blob/main/category_salons.jpg?raw=true" alt="Image de Salons Marocains">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2 wood-secondary">Salons Marocains</h3>
+                        <p class="text-gray-600 text-sm">Travail du bois sculpté, Sedari traditionnels et tables basses en bois noble.</p>
+                    </div>
+                    <div class="card-border-fix"></div>
                 </div>
 
-                <!-- Service Card 4: Storage -->
-                <div class="bg-stone-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-t-4 border-wood-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#8D6E63" class="w-10 h-10 mb-4"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.645 12.144A2.25 2.25 0 0 1 17.305 21H6.694a2.25 2.25 0 0 1-2.24-2.216L3.75 7.5m6 4.69l1.403 2.105m0 0l-1.403 2.105m1.403-2.105V9.75M9.75 7.5h4.5M3.75 7.5h-.008v.008H3.75V7.5zm16.5 0h.008v.008h-.008V7.5z" /></svg>
-                    <h3 class="text-xl font-bold mb-2 wood-secondary">Placards & Dressing</h3>
-                    <p class="text-gray-600 text-sm">Optimisation d'espace avec des rangements, placards et dressings élégants.</p>
+                <!-- Service Card 4: Storage (category_placards.jpg) -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://github.com/kingtrader19901991-sudo/menuiserie-mzab-website/blob/main/category_placards.png?raw=true" alt="Image de Placards et Dressing">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2 wood-secondary">Placards & Dressing</h3>
+                        <p class="text-gray-600 text-sm">Optimisation d'espace avec des rangements, placards et dressings élégants.</p>
+                    </div>
+                    <div class="card-border-fix"></div>
                 </div>
 
             </div>
@@ -109,33 +123,33 @@
         </div>
     </div>
 
-    <!-- 4. Mock Gallery Section (To prove business activity) -->
+    <!-- 4. Mock Gallery Section (Using category images for now) -->
     <section id="gallery" class="py-16 bg-stone-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold wood-secondary text-center mb-12">Quelques Réalisations</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                <!-- Gallery Item 1 -->
+                <!-- Gallery Item 1 (Portes Image) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-xl">
-                    <img class="w-full h-56 object-cover" src="https://placehold.co/800x600/6D4C41/FFFFFF?text=PORTE+EXTERIEURE" alt="Porte en bois massif sur mesure">
+                    <img class="w-full h-56 object-cover" src="https://github.com/kingtrader19901991-sudo/menuiserie-mzab-website/blob/main/porte_garage.webp?raw=true" alt="Porte en bois massif sur mesure">
                     <div class="p-4">
                         <p class="text-lg font-semibold wood-secondary">Porte d'entrée en Chêne</p>
                         <p class="text-sm text-gray-500">Casablanca, Fini Mat</p>
                     </div>
                 </div>
 
-                <!-- Gallery Item 2 -->
+                <!-- Gallery Item 2 (Cuisines Image) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-xl">
-                    <img class="w-full h-56 object-cover" src="https://placehold.co/800x600/6D4C41/FFFFFF?text=CUISINE+MODERNE" alt="Cuisine équipée moderne">
+                    <img class="w-full h-56 object-cover" src="https://github.com/kingtrader19901991-sudo/menuiserie-mzab-website/blob/main/cuisine_rustique.jpg?raw=true" alt="Cuisine équipée moderne">
                     <div class="p-4">
                         <p class="text-lg font-semibold wood-secondary">Cuisine Équipée Contemporaine</p>
                         <p class="text-sm text-gray-500">Rabat, MDF Hydrofuge</p>
                     </div>
                 </div>
 
-                <!-- Gallery Item 3 -->
+                <!-- Gallery Item 3 (Salons Image) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-xl">
-                    <img class="w-full h-56 object-cover" src="https://placehold.co/800x600/6D4C41/FFFFFF?text=SALON+MAROCAIN" alt="Salon marocain traditionnel sculpté">
+                    <img class="w-full h-56 object-cover" src="https://github.com/kingtrader19901991-sudo/menuiserie-mzab-website/blob/main/salon_2.png?raw=true" alt="Salon marocain traditionnel sculpté">
                     <div class="p-4">
                         <p class="text-lg font-semibold wood-secondary">Salon Traditionnel Sculpté</p>
                         <p class="text-sm text-gray-500">Marrakech, Bois Hêtre</p>
@@ -162,7 +176,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#8D6E63" class="w-6 h-6 flex-shrink-0"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 3.75-2.25 7.5-6 7.5h-1.5c-3.75 0-6-3.75-6-7.5s2.25-7.5 6-7.5h1.5c3.75 0 6 3.75 6 7.5Z" /></svg>
                         <div>
                             <p class="font-bold wood-secondary">Adresse de l'Atelier</p>
-                            <p class="text-gray-700">BLOC PAM 1 CENTRE OD MRAH BEN AHMED (M) - Maroc</p>
+                            <p class="text-gray-700">123 Rue de l'Artisanat, Zone Industrielle, Casablanca, Maroc</p>
                         </div>
                     </div>
 
@@ -171,7 +185,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#8D6E63" class="w-6 h-6 flex-shrink-0"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75l1.5-1.5m-1.5 1.5l-1.5 1.5m3-3l1.5 1.5m-1.5-1.5l-1.5 1.5m3-3l1.5-1.5m-1.5 1.5l-1.5-1.5M12 18V6" /><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-3-3v6M18 10.5h.75m-1.5 0h-3m3 0a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z" /></svg>
                         <div>
                             <p class="font-bold wood-secondary">Téléphone</p>
-                            <a href="tel:+212500000000" class="text-blue-600 hover:underline">+212 5 34 55 66 77</a>
+                            <a href="tel:+212500000000" class="text-blue-600 hover:underline">+212 5 00 00 00 00</a>
                         </div>
                     </div>
 
@@ -192,8 +206,8 @@
     <!-- Footer -->
     <footer class="wood-primary py-8 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
-            <p>&copy; 2025 Menuiserie MZAB Tous droits réservés.</p>
-            <p class="mt-2">Basé à Ben Ahmed, Maroc. Enregistré sous ICE: 000149991000090 </p>
+            <p>&copy; 2024 Menuiserie Atlas. Tous droits réservés.</p>
+            <p class="mt-2">Basé à Casablanca, Maroc. Enregistré sous ICE: [Votre Numéro ICE]</p>
         </div>
     </footer>
 
