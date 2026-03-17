@@ -14,7 +14,7 @@
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": true,
+      "animated_sticker_pack": false,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -30,9 +30,7 @@
         {"image_file": "almouatassim10.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim11.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim12.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim13.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim14.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]}
+        {"image_file": "almouatassim13.webp", "Animated": ["😭","💧"]}
       ]
     },
     {
@@ -47,7 +45,7 @@
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": true,
+      "animated_sticker_pack": false,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -64,12 +62,7 @@
         {"image_file": "almouatassim11.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim12.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim13.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim14.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim16.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim17.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim18.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim19.webp", "Animated": ["😭","💧"]}
+        {"image_file": "almouatassim14.webp", "Animated": ["😭","💧"]}
       ]
     },
     {
@@ -84,7 +77,7 @@
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": true,
+      "animated_sticker_pack": false,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -117,7 +110,7 @@
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": false,
+      "animated_sticker_pack": true,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -137,11 +130,7 @@
         {"image_file": "almouatassim14.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim16.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim17.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim18.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim19.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim20.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim21.webp", "Animated": ["😭","💧"]}
+        {"image_file": "almouatassim17.webp", "Animated": ["😭","💧"]}
       ]
     },
     {
@@ -178,20 +167,17 @@
         {"image_file": "almouatassim16.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim17.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim18.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim19.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim20.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim21.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim22.webp", "Animated": ["😭","💧"]}
+        {"image_file": "almouatassim19.webp", "Animated": ["😭","💧"]}
       ]
     },
     {
       "identifier": "3",
-      "name": "Brazilian Figurinhas",
+      "name": "Mochi Cats Stickers",
       "publisher": "ALMOUATASSIM DEV",
       "username": "ALMOUATASSIM DEV",
       "date": "2025",
       "tray_image_file": "almouatassim_tray.png",
-      "category": "Brazilian",
+      "category": "Mochi Cats",
       "image_data_version": "1",
       "avoid_cache": false,
       "publisher_email": "",
@@ -223,12 +209,12 @@
     },
     {
       "identifier": "9",
-      "name": "Brazilian Figurinhas",
+      "name": "No Phrases Figurinhas",
       "publisher": "ALMOUATASSIM DEV",
       "username": "ALMOUATASSIM DEV",
       "date": "2025",
       "tray_image_file": "almouatassim_tray.png",
-      "category": "Brazilian",
+      "category": "No Phrases",
       "image_data_version": "1",
       "avoid_cache": false,
       "publisher_email": "",
@@ -261,17 +247,17 @@
     },
     {
       "identifier": "1",
-      "name": "English Stickers",
+      "name": "No Phrases Stickers",
       "publisher": "ALMOUATASSIM DEV",
       "username": "ALMOUATASSIM DEV",
       "date": "2025",
       "tray_image_file": "almouatassim_tray.png",
-      "category": "English",
+      "category": "No Phrases",
       "image_data_version": "1",
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": true,
+      "animated_sticker_pack": false,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -294,17 +280,17 @@
     },
     {
       "identifier": "2",
-      "name": "English Stickers",
+      "name": "No Phrases Figurinhas",
       "publisher": "ALMOUATASSIM DEV",
       "username": "ALMOUATASSIM DEV",
       "date": "2025",
       "tray_image_file": "almouatassim_tray.png",
-      "category": "English",
+      "category": "No Phrases",
       "image_data_version": "1",
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": true,
+      "animated_sticker_pack": false,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -327,12 +313,12 @@
     },
     {
       "identifier": "7",
-      "name": "English Stickers",
+      "name": "Brazilian Figurinhas",
       "publisher": "ALMOUATASSIM DEV",
       "username": "ALMOUATASSIM DEV",
       "date": "2025",
       "tray_image_file": "almouatassim_tray.png",
-      "category": "English",
+      "category": "Brazilian",
       "image_data_version": "1",
       "avoid_cache": false,
       "publisher_email": "",
@@ -384,15 +370,7 @@
         {"image_file": "almouatassim8.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim9.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim10.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim11.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim12.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim13.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim14.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim16.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim17.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim18.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim19.webp", "Animated": ["😭","💧"]}
+        {"image_file": "almouatassim11.webp", "Animated": ["😭","💧"]}
       ]
     },
     {
@@ -407,7 +385,7 @@
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": false,
+      "animated_sticker_pack": true,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -425,7 +403,22 @@
         {"image_file": "almouatassim12.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim13.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim14.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]}
+        {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim16.webp", "Animated": ["☕","🙂"]},
+        {"image_file": "almouatassim17.webp", "Animated": ["😄","😀"]},
+        {"image_file": "almouatassim18.webp", "Animated": ["😆","😂"]},
+        {"image_file": "almouatassim19.webp", "Animated": ["😩","😰"]},
+        {"image_file": "almouatassim20.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim21.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim22.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim823.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim24.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim25.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim26.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim27.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim28.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim29.webp", "Animated": ["😭","💧"]},
+        {"image_file": "almouatassim30.webp", "Animated": ["😭","💧"]}
       ]
     },
     {
@@ -494,7 +487,9 @@
         {"image_file": "almouatassim12.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim13.webp", "Animated": ["😭","💧"]},
         {"image_file": "almouatassim14.webp", "Animated": ["😭","💧"]},
-        {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]}
+        {"image_file": "almouatassim15.webp", "Animated": ["😭","💧"]},
+                {"image_file": "almouatassim16.webp", "Animated": ["😭","💧"]}
+
       ]
     },
     {
@@ -509,7 +504,7 @@
       "avoid_cache": false,
       "publisher_email": "",
       "publisher_website": "",
-      "animated_sticker_pack": false,
+      "animated_sticker_pack": true,
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
